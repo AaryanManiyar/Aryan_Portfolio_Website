@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Section</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#09203a;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    /* Skills Section */
+    #skills {
+      padding: 40px 0;
+      background-color: #09203a;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .skills-category {
+      margin-bottom: 30px;
+    }
+
+    .skills-category h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: white;
+    }
+
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills-list li {
+      background: #e3e8f3;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-size: 1.2rem;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <section id="skills">
+    <div class="container">
+
+      <div class="skills-category">
+        <h3>Technical Skills</h3>
+        <ul class="skills-list">
+            <li>Statistical Analysis</li>
+            <li>Data Wrangling</li>
+            <li>Data Visualization</li>
+            <li>EDA</li>
+            <li>Predictive Analysis</li>
+            <li>Python</li>
+            <li>R Programming</li>
+            <li>SQL</li>
+            <li>Machine learning</li>
+            <li>Deep Learning</li>
+            <li>Model Evaluations</li>
+        </ul>
+      </div>
+
+
+      <div class="skills-category">
+        <h3>Business Knowledge</h3>
+        <ul class="skills-list">
+          <li>Requirement Gathering</li>
+          <li>SWOT & KPIs</li>
+          <li>Market Research</li>
+          <li>Business Strategy</li>
+        </ul>
+      </div>
+
+      <div class="skills-category">
+        <h3>Soft Skills</h3>
+        <ul class="skills-list">
+          <li>Data Storytelling</li>
+          <li>Presentation Skills</li>
+          <li>Analytical Thinking</li>
+          <li>Critical Thinking</li>
+          <li>Teamwork</li>
+          <li>Stakeholder Engagement</li>
+        </ul>
+      </div>
+
+      <div class="skills-category">
+        <h3>Tools & Platforms</h3>
+        <ul class="skills-list">
+          <li>PowerBI</li>
+          <li>Tableau</li>
+          <li>Jupyter Notebooks</li>
+          <li>Amazon Web Services</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
